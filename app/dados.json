@@ -1,0 +1,186 @@
+{
+  "dados": [
+    {
+      "pre_codigo": 1,
+      "prefeitura": "Prefeitura Municipal de Pedro Afonso",
+      "servicos": [
+        {
+          "codigo_empenho": 498,
+          "data": "20/03/2017",
+          "empresa": "LJ INFORMATICA E PAPELARIA LTDA - ME",
+          "valor": 1130.00,
+          "descricao": "PRESTACAO DE SERVICO EM MANUTENCAO DE COMPUTADORES DO SISTEMA DE ABASTECIMENTO DE AGUA DE PEDRO AFONSO."
+        },
+        {
+          "codigo_empenho": 166,
+          "data": "20/03/2017",
+          "empresa": "WANDERSON RODRIGUES GOMES - MEI",
+          "valor": 2250.00,
+          "descricao": "PRESTACAO DE SERVICO E MANUTENCAO DE COMPUTADORES E EQUIPAMENTOS PERIFERICO NAS UBS I, II, III CONFORME TERMO DE CONTRARO N°01/2017."
+        },
+        {
+          "codigo_empenho": 166,
+          "data": "19/02/2016",
+          "empresa": "WANDERSON RODRIGUES GOMES - MEI",
+          "valor": 510.00,
+          "descricao": "MANUTENCAO DOS COMPUTADORES DAS UBS DESTE MUNICIPIO."
+        },
+        {
+          "codigo_empenho": 544,
+          "data": "17/11/2016",
+          "empresa": "LJ INFORMÁTICA E PAPELARIA",
+          "valor": 480.00,
+          "descricao": "SERVICO EM MANUTENCAO DE COMPUTADORES DA SEC. DE ASSISTENCIA SOCIAL E CRAS E CADASTRO UNICO."
+        },
+        {
+          "codigo_empenho": 210,
+          "data": "04/03/2016",
+          "empresa": "LJ INFORMÁTICA E PAPELARIA",
+          "valor": 3160.00,
+          "descricao": "PRESTACAO DE SERVICO EM MANUTENCAO DE COMPUTADORES E IMPRESSORAS NAS ESCOLAS MUNICIPAIS DESTA CIDADE."
+        }
+      ],
+      "compras": [
+        {
+          "codigo_empenho": 504,
+          "data": "15/04/2016",
+          "empresa": "J.G.EMPREENDIMENTOS COMERCIAL-EIRELI-ME",
+          "valor": 4184.00,
+          "descricao": "AQUISICAO DE UM NOBREAK E UM COMPUTADOR PARA ATENDER A SEC. DE PLANEJAMENTO. CONFORME PREGAO N°019/2015."
+        },
+        {
+          "codigo_empenho": 306,
+          "data": "11/02/2016",
+          "empresa": "J.G.EMPREENDIMENTOS COMERCIAL-EIRELI-ME",
+          "valor": 4184.00,
+          "descricao": "AQUISICAO DE COMPUTADOR PARA ATENDER A SEC. DE DES. URB. ECON, CONFORME MATERIAL ESPECIFICADO NO PREGO N°08/2015 ATA DE REGISTRO N°173/2015."
+        },
+        {
+          "codigo_empenho": 502,
+          "data": "20/03/2017",
+          "empresa": "J.N.COM. VAREJISTA DE APARELHOS DE COM",
+          "valor": 1780.00,
+          "descricao": "AQUISICAO DE PECAS PARA MANUTENCAO DE COMPUTADORES DO SISTEMA DE ABASTECIMENTO SISAPA."
+        },
+        {
+          "codigo_empenho": 38,
+          "data": "27/01/2017",
+          "empresa": "ALMEIDA E AZEVEDO LTDA-ME",
+          "valor": 3903.00,
+          "descricao": "AQUISICAO DE PECAS PARA MANUTENCAO DE COMPUTADORES DA REDE ESCOLAR DESTE MUNICIPIO."
+        },
+        {
+          "codigo_empenho": 211,
+          "data": "04/03/2016",
+          "empresa": "J.N.COM. VAREJISTA DE APARELHOS DE COM",
+          "valor": 3040.30,
+          "descricao": "AQUISICAO DE MATERIAL PARA MANUTENCAO DE COMPUTADORES E IMPRESSORAS NAS ESCOLAS MUNICIPAIS DESTA CIDADE."
+        }
+      ],
+      "grafico": [
+        {
+          "country": "J.G.EMPREENDIMENTOS COMERCIAL-EIRELI-ME",
+          "litres": 8368.00
+        },
+        {
+          "country": "J.N.COM. VAREJISTA DE APARELHOS DE COM",
+          "litres": 4820.30
+        },
+        {
+          "country": "ALMEIDA E AZEVEDO LTDA-ME",
+          "litres": 3903.00
+        },
+        {
+          "country": "LJ INFORMATICA E PAPELARIA LTDA - ME",
+          "litres": 4770.00
+        },
+        {
+          "country": "WANDERSON RODRIGUES GOMES - MEI",
+          "litres": 2760.00
+        }
+      ]
+    },
+    {
+      "pre_codigo": 2,
+      "prefeitura": "Prefeitura Municipal de Barrolândia",
+      "servicos": [
+        {
+          "codigo_empenho": 1466,
+          "data": "09/12/2016",
+          "empresa": "LUCIANO DE SOUSA SILVA",
+          "valor": 300.00,
+          "descricao": "EMPENHO DE DESPESA REF. A SERVIÇO DE FORMATAÇÃO D COMPUTADORES, LABORATÓRIO DA ESCOLA MUNICIPAL CRIANÇA FELIZ, JUNTO À SECRETARIA DE EDUCAÇÃO DESTE MUNICIPIO."
+        },
+        {
+          "codigo_empenho": 1326,
+          "data": "18/11/2016",
+          "empresa": "BR MASTER COM IMP E EXP DE PRODUTOS LTDA",
+          "valor": 300.00,
+          "descricao": "DESPESA COM PRESTAÇÃO DE SERVIÇO DE REPARO NA PLACA MÃE NO COMPUTADOR DA SECRETARIA DE EDUCAÇÃO."
+        },
+        {
+          "codigo_empenho": 796,
+          "data": "15/06/2016",
+          "empresa": "BR MASTER COM IMP E EXP DE PRODUTOS LTDA",
+          "valor": 100.00,
+          "descricao": "EMPENHO DE DESPESA REF. A SERVIÇO DE FORMATAÇÃO EM COMPUTADOR NOTEBOOK DA ESCOLA MUNICIPAL CRIANÇA FELIZ, JUNTO A SECRETARIA DE EDUCAÇÃO DESTE MUNICIPIO."
+        },
+        {
+          "codigo_empenho": 27,
+          "data": "04/01/2016",
+          "empresa": "JOSEAN SILVA CARVALHO",
+          "valor": 7933.00,
+          "descricao": "CONTRATO DE PRESTAÇÃO DE SERVIÇO NA MANUTENÇÃO DOS COMPUTADORES DA PREFEITURA E DEPARTEMENTOS AFINS, NO PERIODO DE JANEIRO A JUNHO DE 2016."
+        },
+        {
+          "codigo_empenho": 1251,
+          "data": "03/11/2016",
+          "empresa": "JOSEAN SILVA CARVALHO",
+          "valor": 925.00,
+          "descricao": "EMPENHO DE DESPESA REF. A SERVIÇO DE SISTEMA NOS COMPUTADORES DO LABORATÓRIO DE INFORMÁTICA DA ESCOLA MUNICIPAL CRIANÇA FELIZ, JUNTO À SECRETARIA DE EDUCAÇÃO DESTE MUNICIPIO."
+        }
+      ],
+      "compras": [
+        {
+          "codigo_empenho": 1391,
+          "data": "02/12/2016",
+          "empresa": "MEU MICRO COM. ATAC, IMP E EXP LTDA - EPP",
+          "valor": 67600.00,
+          "descricao": "EMPENHO DE DESPESA REF. A AQUISIÇÃO DE 26 COMPUTADORES NOTEBOOK PARA USO DOS PROFESSORES DA ESCOLA CRIANÇA FELIZ, JUNTO À SECRETARIA DE EDUCAÇÃO DESTE MUNICIPIO. / LICITAÇÃO: PREGÃO 13/2016."
+        },
+        {
+          "codigo_empenho": 922,
+          "data": "01/08/2016",
+          "empresa": "JOSEAN SILVA CARVALHO",
+          "valor": 2852.00,
+          "descricao": "EMPENHO DE DESPESA REF. AQUISIÇÃO DE COMPUTADOR E NOBREAK PARA TRANSFORMADOR, JUNTO À SECRETARIA DE ADMINISTRAÇÃO DESTE MUNICIPIO."
+        },
+        {
+          "codigo_empenho": 88,
+          "data": "20/01/2016",
+          "empresa": "JOSEAN SILVA CARVALHO",
+          "valor": 1805.00,
+          "descricao": "EMPENHO DE DESPESA COM AQUISIÇÃO DE UM COMPUTADOR DESTINADO A COLETORIA, JUNTO A SECRETARIA DE ADMINISTRAÇÃO DESTE MUNICIPIO."
+        }
+      ],
+      "grafico": [
+        {
+          "country": "MEU MICRO COM. ATAC, IMP E EXP LTDA - EPP",
+          "litres": 67600.00
+        },
+        {
+          "country": "JOSEAN SILVA CARVALHO",
+          "litres": 13515.00
+        },
+        {
+          "country": "LUCIANO DE SOUSA SILVA",
+          "litres": 300.00
+        },
+        {
+          "country": "BR MASTER COM IMP E EXP DE PRODUTOS LTDA",
+          "litres": 400.00
+        }
+      ]
+    }
+  ]
+}

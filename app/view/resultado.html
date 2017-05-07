@@ -1,0 +1,162 @@
+<div ng-repeat="d in dados">
+    <div class="card mb-5">
+        <div class="card-header">
+            {{d.prefeitura}}
+        </div>
+        <div class="card-block">
+            <p class="h5">Compra de Computadores</p>
+            <table class="table table-sm table-hover">
+                <thead class="thead-default">
+                <tr>
+                    <th>Empenho</th>
+                    <th>Empresa</th>
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="s in d.compras">
+                    <td>{{s.codigo_empenho}}</td>
+                    <td>{{s.empresa}}</td>
+                    <td>{{s.descricao}}</td>
+                    <td>{{s.valor | currency}}</td>
+                </tr>
+                <tr>
+                    <td class="text-center text-uppercase font-weight-bold" colspan="4">Total: {{d.compras | sum:'valor' |
+                        currency}}
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <p class="h5 mt-5">Serviços de Manutenção</p>
+            <table class="table table-sm table-hover">
+                <thead class="thead-default">
+                <tr>
+                    <th>Empenho</th>
+                    <th>Empresa</th>
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="s in d.servicos">
+                    <td>{{s.codigo_empenho}}</td>
+                    <td>{{s.empresa}}</td>
+                    <td>{{s.descricao}}</td>
+                    <td>{{s.valor | currency}}</td>
+                </tr>
+                <tr>
+                    <td class="text-center text-uppercase font-weight-bold" colspan="4">Total: {{d.servicos | sum:'valor' |
+                        currency}}
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <hr>
+</div>
+
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card mb-5">
+            <div class="card-block">
+                <p class="h5">Prefeitura Municipal de Pedro Afonso</p>
+                <div class="chartdiv" id="chartdiv1"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card mb-5">
+            <div class="card-block">
+                <p class="h5">Prefeitura Municipal de Barrolândia</p>
+                <div class="chartdiv" id="chartdiv2"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Chart code -->
+<script>
+    var chart = AmCharts.makeChart("chartdiv1", {
+        "type": "pie",
+        "theme": "light",
+        "innerRadius": "40%",
+        "gradientRatio": [-0.4, -0.4, -0.4, -0.4, -0.4, -0.4, 0, 0.1, 0.2, 0.1, 0, -0.2, -0.5],
+        "dataProvider": [
+            {
+                "country": "J.G.EMPREENDIMENTOS COMERCIAL-EIRELI-ME",
+                "litres": 8368.00
+            },
+            {
+                "country": "J.N.COM. VAREJISTA DE APARELHOS DE COM",
+                "litres": 4820.30
+            },
+            {
+                "country": "ALMEIDA E AZEVEDO LTDA-ME",
+                "litres": 3903.00
+            },
+            {
+                "country": "LJ INFORMATICA E PAPELARIA LTDA - ME",
+                "litres": 4770.00
+            },
+            {
+                "country": "WANDERSON RODRIGUES GOMES - MEI",
+                "litres": 2760.00
+            }
+        ],
+        "balloonText": "[[value]]",
+        "valueField": "litres",
+        "titleField": "country",
+        "balloon": {
+            "drop": true,
+            "adjustBorderColor": false,
+            "color": "#FFFFFF",
+            "fontSize": 11
+        },
+        "export": {
+            "enabled": true
+        }
+    });
+    var chart2 = AmCharts.makeChart("chartdiv2", {
+        "type": "pie",
+        "theme": "light",
+        "innerRadius": "40%",
+        "gradientRatio": [-0.4, -0.4, -0.4, -0.4, -0.4, -0.4, 0, 0.1, 0.2, 0.1, 0, -0.2, -0.5],
+        "dataProvider": [
+            {
+                "country": "MEU MICRO COM. ATAC, IMP E EXP LTDA - EPP",
+                "litres": 67600.00
+            },
+            {
+                "country": "JOSEAN SILVA CARVALHO",
+                "litres": 13515.00
+            },
+            {
+                "country": "LUCIANO DE SOUSA SILVA",
+                "litres": 300.00
+            },
+            {
+                "country": "BR MASTER COM IMP E EXP DE PRODUTOS LTDA",
+                "litres": 400.00
+            }
+        ],
+        "balloonText": "[[value]]",
+        "valueField": "litres",
+        "titleField": "country",
+        "balloon": {
+            "drop": true,
+            "adjustBorderColor": false,
+            "color": "#FFFFFF",
+            "fontSize": 11
+        },
+        "export": {
+            "enabled": true
+        }
+    });
+</script>
+
